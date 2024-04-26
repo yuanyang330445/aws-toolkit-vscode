@@ -267,7 +267,7 @@ export async function aboutExtension(): Promise<void> {
 
 function getProductName(): string {
     return globals.context.extension.id === VSCODE_EXTENSION_ID.amazonq
-        ? 'Amazon Q Toolkit'
+        ? 'Amazon Q'
         : `${getIdeProperties().company} Toolkit`
 }
 
